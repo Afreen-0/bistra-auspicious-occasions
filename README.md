@@ -17,7 +17,17 @@
 - Web Server: Apache Server
 
 ## 📸 Screenshots
-*Note: Add event photos or UI screenshots here if you have them.*
+<img width="540" alt="2025-05-05" src="https://github.com/user-attachments/assets/b3a5705a-f128-4a55-abb1-2a11d23cc884" />
+<img width="960" alt="2025-05-05 (1)" src="https://github.com/user-attachments/assets/101bf231-1728-4145-bb34-a798972e5472" />
+<img width="960" alt="2025-05-05 (2)" src="https://github.com/user-attachments/assets/21772d22-e624-49d9-ba5b-3ec96b453699" />
+<img width="960" alt="2025-05-05 (3)" src="https://github.com/user-attachments/assets/74c5daf2-2891-4e33-aab2-e4d05c8ff977" />
+<img width="960" alt="2025-05-05 (4)" src="https://github.com/user-attachments/assets/1c781990-64c3-406d-b11f-3eedd6c30c72" />
+<img width="960" alt="2025-05-05 (5)" src="https://github.com/user-attachments/assets/03ee4db0-787f-49eb-b9e5-56977e438a31" />
+<img width="960" alt="2025-05-05 (6)" src="https://github.com/user-attachments/assets/162c5752-6563-4f4a-9c0c-c806151d6e4f" />
+<img width="960" alt="2025-05-05 (7)" src="https://github.com/user-attachments/assets/5277cf29-4099-400d-a42f-d45e7fb5fd0a" />
+<img width="960" alt="2025-05-05 (8)" src="https://github.com/user-attachments/assets/1385224e-d185-49ac-91aa-14e5b23f1574" />
+
+
 
 ## 🙋‍♂️ My Role
 - Designed the user interface and user experience
