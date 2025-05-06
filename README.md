@@ -17,7 +17,7 @@
 - Web Server: Apache Server
 
 ## 📸 Screenshots
-<img width="540" alt="2025-05-05" src="https://github.com/user-attachments/assets/b3a5705a-f128-4a55-abb1-2a11d23cc884" />
+<img width="960" alt="Affu" src="https://github.com/user-attachments/assets/39a6670b-3c46-4800-aa93-ab03cd4e5c76" />
 <img width="960" alt="2025-05-05 (1)" src="https://github.com/user-attachments/assets/101bf231-1728-4145-bb34-a798972e5472" />
 <img width="960" alt="2025-05-05 (2)" src="https://github.com/user-attachments/assets/21772d22-e624-49d9-ba5b-3ec96b453699" />
 <img width="960" alt="2025-05-05 (3)" src="https://github.com/user-attachments/assets/74c5daf2-2891-4e33-aab2-e4d05c8ff977" />
