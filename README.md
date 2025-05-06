@@ -1,5 +1,3 @@
-# Bistra Auspicious Occasions
-
 ## 🚀 Overview
 **Bistra Auspicious Occasions** is a web-based platform designed to help users plan and organize special events such as weddings, birthdays, and cultural ceremonies. The project aimed to simplify event management, bookings, and vendor coordination.
 
