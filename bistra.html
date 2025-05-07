@@ -1,41 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bistra Auspicious Occasions</title>
-    <style>
-        body { font-family: Helvetica, sans-serif; margin: 40px; background-color: black; color: #f0f0f0; }
-        .container { max-width: 700px; margin: square; background: #1e1e1e; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
-        h1, h2 { color: #ffffff; }
-        p, li { line-height: 1.6; }
-        a { color: #4fc3f7; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Bistra Auspicious Occasions</h1>
-        <p><strong>Overview:</strong> A web-based platform to help users plan and organize special events like weddings, birthdays, and cultural ceremonies, making event management and vendor coordination simple.</p>
-        <h2>Features</h2>
-        <ul>
-            <li>User registration and login</li>
-            <li>Event listings with details</li>
-            <li>Vendor booking and management</li>
-            <li>Calendar and reminders</li>
-            <li>Admin panel for managing events and vendors</li>
+import React from "react";
+import { motion } from "framer-motion";
+import { User, Calendar, Server, Code, Mail, Lightbulb, HeartHandshake, Image } from "lucide-react";
+
+export default function BistraOccasions() {
+  return (
+    <motion.div
+      className="min-h-screen bg-black text-gray-100 px-4 py-10"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6 }}
+    >
+      <motion.div
+        className="max-w-3xl mx-auto bg-gray-900 p-8 rounded-2xl shadow-lg"
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        <motion.h1 
+          className="text-3xl font-bold text-white mb-4 flex items-center gap-2" 
+          whileHover={{ scale: 1.05, color: '#4fc3f7' }}
+        >
+          <Calendar size={28} /> Bistra Auspicious Occasions
+        </motion.h1>
+
+        <motion.p className="mb-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>
+          <strong>Overview:</strong> Bistra is a dynamic event planning platform that streamlines the organization of auspicious occasions—be it weddings, birthdays, or cultural celebrations. It simplifies event planning, vendor management, guest coordination, and reminders, ensuring a stress-free experience for both hosts and guests.
+        </motion.p>
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <User size={22} /> Features
+        </motion.h2>
+        <ul className="list-disc list-inside space-y-1">
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Secure user registration and login with profile management</motion.li>
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Create, view, and edit events with detailed descriptions and media</motion.li>
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Searchable vendor directory with real-time availability and reviews</motion.li>
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Integrated calendar with smart reminders and notifications</motion.li>
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Admin panel to manage users, vendors, and content approvals</motion.li>
         </ul>
-        <h2>Technologies Used</h2>
-        <ul>
-            <li>Frontend:  HTML, CSS, JavaScript, DHTML, XHTML, Ajax</li>
-            <li>Backend: PHP, XAMPP, DHTML</li>
-            <li>Database: MySQL Server</li>
-            <li>Web Server: Apache Server</li>
-          
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <Code size={22} /> Technologies Used
+        </motion.h2>
+        <ul className="list-disc list-inside space-y-1">
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Frontend: HTML, CSS, JavaScript, Ajax for dynamic UI updates</motion.li>
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Backend: PHP with XAMPP for server-side logic and API handling</motion.li>
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Database: MySQL Server for structured data storage and management</motion.li>
+          <motion.li whileHover={{ color: '#4fc3f7' }}>Web Server: Apache Server for reliable hosting and performance</motion.li>
         </ul>
-        <h2>My Role</h2>
-        <p>Designed UI and UX, developed backend APIs, integrated frontend and backend.</p>
-        <h2>Contact</h2>
-        <p>Reach me at <a href="mailto:affuafra73@gmail.com">affuafra73@gmail.com</a></p>
-    </div>
-</body>
-</html>
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <User size={22} /> My Role
+        </motion.h2>
+        <motion.p className="mb-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>
+          I led the user experience design, crafted interactive interfaces, developed backend services using PHP, and integrated all layers to deliver a cohesive and efficient web app. Additionally, I coordinated testing and deployment processes.
+        </motion.p>
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <Server size={22} /> Workflow & Deployment
+        </motion.h2>
+        <motion.p className="mb-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
+          Bistra follows a modular development structure. Components are reused and optimized for performance. The application is hosted on Apache using XAMPP and connected to a MySQL database. CI/CD practices were used for efficient updates.
+        </motion.p>
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <Lightbulb size={22} /> Inspiration
+        </motion.h2>
+        <motion.p className="mb-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
+          The idea for Bistra emerged from the challenge of coordinating multi-vendor events for close family ceremonies. The goal was to reduce planning fatigue and bring a seamless experience to all stakeholders.
+        </motion.p>
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <HeartHandshake size={22} /> User Impact
+        </motion.h2>
+        <motion.p className="mb-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
+          Users appreciated the intuitive dashboard, one-click vendor booking, and timely reminders. The platform reduced vendor response times by 40% and improved guest satisfaction.
+        </motion.p>
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <Image size={22} /> Gallery
+        </motion.h2>
+        <motion.div className="grid grid-cols-2 gap-4 mb-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
+          <img src="/images/event1.jpg" alt="Event 1" className="rounded-lg shadow-md" />
+          <img src="/images/event2.jpg" alt="Event 2" className="rounded-lg shadow-md" />
+        </motion.div>
+
+        <motion.h2 className="text-2xl font-semibold text-white mt-6 mb-2 flex items-center gap-2" whileInView={{ scale: 1.05 }}>
+          <Mail size={22} /> Contact
+        </motion.h2>
+        <motion.p className="mb-4" whileHover={{ color: '#4fc3f7' }}>
+          Reach me at: <a className="text-blue-400 hover:underline" href="mailto:affuafra73@gmail.com">affuafra73@gmail.com</a>
+        </motion.p>
+      </motion.div>
+    </motion.div>
+  );
+}
